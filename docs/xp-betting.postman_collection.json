@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "77eb7d17-80fd-4078-8a06-3fe4d33167a2",
+		"name": "xp-betting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/session/win-bet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/session/win-bet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"session",
+						"win-bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/game/win-bet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/game/win-bet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"game",
+						"win-bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/session-game/win-bet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/session-game/win-bet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"session-game",
+						"win-bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/profit-player",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/profit-player",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profit-player"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
